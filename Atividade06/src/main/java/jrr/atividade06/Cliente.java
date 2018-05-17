@@ -14,14 +14,7 @@ public class Cliente {
     String nome;
     String endereco;
 
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String pEndereco) {
-        endereco = pEndereco;
-    }
-    
+     
     public Cliente(int pCodigo, String pNome, String pEndereco) {
         codigo = pCodigo;
         nome = pNome;
@@ -32,20 +25,26 @@ public class Cliente {
         return codigo;
     }
 
-    public void setCodigo(int pCodigo) {
-        codigo = pCodigo;
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String pNome) {
-        nome = pNome;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    
+    public String getEndereco() {
+        return endereco;
+    }
 
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
 
+   
    
 }
