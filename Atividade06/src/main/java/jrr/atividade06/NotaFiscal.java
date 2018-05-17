@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package jrr.atividade06;
 
-
 /**
- *
- * @author juliano
+ * @author Juliano
  */
 public class NotaFiscal {
 
     String nomecli; 
     double vfatura; 
     double imposto;
-    //Cliente pcli, Fatura pfatura, double pImposto
+    
     public NotaFiscal() {
     }
 
@@ -48,7 +41,5 @@ public class NotaFiscal {
     public void setImposto(double imposto) {
         this.imposto = imposto;
     }
-  
-
     
 }
